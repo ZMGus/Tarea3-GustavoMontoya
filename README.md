@@ -5,7 +5,7 @@ A continuacion se presenta el apartado 2 y 3 de la tarea 3
 Como ejecutar el programa para el apartado 2.
 
 Descargar set de imagenes de kaggle para el apartado 2 ([Link de descarga del Dataset](https://www.kaggle.com/datasets/tongpython/cat-and-dog?resource=download))
-Pasar el contenido de las carpetas de training_set a train y de test_set a val.
+Pasar el contenido de las carpetas de training_set a una carpeta llamada "train" y de test_set a una carpeta llamada "val" dentro de la carpeta 
 Posteriormente correr predict y despues train, y listo, deberia verse la prediccion.
 Bonus: Correr gradcam para ver donde toma la relevancia el modelo para tomar la decision.
 
