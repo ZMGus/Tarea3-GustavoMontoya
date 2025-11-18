@@ -1,18 +1,65 @@
-# Tarea3-GustavoMontoya
-A continuacion se presenta el apartado 2 y 3 de la tarea 3
+---
 
+# **Tarea 3 – Gustavo Montoya**
 
-Como ejecutar el programa para el apartado 2.
+A continuación se presentan los apartados **2 y 3** de la Tarea 3.
 
-Descargar set de imagenes de kaggle para el apartado 2 ([Link de descarga del Dataset](https://www.kaggle.com/datasets/tongpython/cat-and-dog?resource=download))
-Posteriormente a la altura de apartado3, crear carpeta "apartado2", dentro de esta crear otra carpeta llamada "data", dentro de esta dos carpetas "train" y "val"
-Pasar el contenido de las carpetas de training_set a la carpeta llamada train y de test_set a la carpeta llamada "val" 
-deberia verse asi la estructura "predecir("apartado2/data/val/cats/cat.4003.jpg")" para predecir una imagen de gato
-Posteriormente correr predict y despues train, y listo, deberia verse la prediccion.
-Bonus: Correr gradcam para ver donde toma la relevancia el modelo para tomar la decision.
+---
 
-Como ejecutar el programa para el apartado 3.
+##  **Cómo ejecutar el programa — Apartado 2**
 
-Dentro de gpt-trained estara el archivo que contiene el modelo entrenado para GPT-Español(parte 2 del apartado 3)
-Ademas se incluye la explicacion de lo que hace el modelo de gpt en explicacion_mini_gpt_transformer.ipynb
+1. **Descargar el dataset de imágenes desde Kaggle**
+    [Dataset “Cat and Dog”](https://www.kaggle.com/datasets/tongpython/cat-and-dog?resource=download)
 
+2. **Crear la estructura de carpetas** a la altura del apartado 3:
+
+```
+apartado2/
+└── data/
+    ├── train/
+    └── val/
+```
+
+3. **Copiar los datos:**
+
+   * Los contenidos de `training_set` → `apartado2/data/train/`
+   * Los contenidos de `test_set` → `apartado2/data/val/`
+
+   Debe quedar algo como:
+
+```
+apartado2/data/val/cats/cat.4003.jpg
+```
+
+4. **Entrenamiento y predicción**
+
+   * Primero ejecutar `train`
+   * Luego ejecutar `predict`
+
+   Ya deberías ver la predicción correcta sobre una imagen, por ejemplo:
+
+```python
+predecir("apartado2/data/val/cats/cat.4003.jpg")
+```
+
+5. **Bonus (opcional)**
+   Ejecutar **Grad-CAM** para visualizar qué regiones de la imagen utiliza el modelo para tomar sus decisiones.
+
+---
+
+##  **Cómo ejecutar el programa — Apartado 3**
+
+Dentro de la carpeta:
+
+```
+gpt-trained/
+```
+
+se encuentra:
+
+* El archivo del modelo entrenado para **GPT-Español** (Parte 2 del Apartado 3).
+* El notebook **explicacion_mini_gpt_transformer.ipynb**, el cual explica paso a paso el funcionamiento del modelo GPT implementado.
+
+---
+
+Si deseas, también puedo ayudarte a generar una versión PDF, agregar secciones adicionales o preparar todo como README final.
