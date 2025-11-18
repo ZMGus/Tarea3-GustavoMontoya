@@ -42,7 +42,7 @@ apartado2/data/val/cats/cat.4003.jpg
 predecir("apartado2/data/val/cats/cat.4003.jpg")
 ```
 
-5. **Bonus (opcional)**
+5. **Bonus**
    Ejecutar **Grad-CAM** para visualizar qué regiones de la imagen utiliza el modelo para tomar sus decisiones.
 
 ---
@@ -62,4 +62,3 @@ se encuentra:
 
 ---
 
-Si deseas, también puedo ayudarte a generar una versión PDF, agregar secciones adicionales o preparar todo como README final.
