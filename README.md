@@ -5,8 +5,9 @@ A continuacion se presenta el apartado 2 y 3 de la tarea 3
 Como ejecutar el programa para el apartado 2.
 
 Descargar set de imagenes de kaggle para el apartado 2 ([Link de descarga del Dataset](https://www.kaggle.com/datasets/tongpython/cat-and-dog?resource=download))
-posteriormente
-Pasar el contenido de las carpetas de training_set a una carpeta llamada "train" y de test_set a una carpeta llamada "val" dentro de la carpeta
+Posteriormente a la altura de apartado3, crear carpeta "apartado2", dentro de esta crear otra carpeta llamada "data", dentro de esta dos carpetas "train" y "val"
+Pasar el contenido de las carpetas de training_set a la carpeta llamada train y de test_set a la carpeta llamada "val" 
+deberia verse asi la estructura "predecir("apartado2/data/val/cats/cat.4003.jpg")" para predecir una imagen de gato
 Posteriormente correr predict y despues train, y listo, deberia verse la prediccion.
 Bonus: Correr gradcam para ver donde toma la relevancia el modelo para tomar la decision.
 
